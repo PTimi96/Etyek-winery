@@ -1,0 +1,156 @@
+.main-bg {
+    background-color: #F9F7F6;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabs {
+    width: 1506px;
+    height: 772px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.details {
+    padding: 30px;
+}
+
+.p-adress {
+    width: 197px;
+    height: 30px;
+    font-size: 20px;
+    color: #54237C;
+    line-height: 30px;
+    padding-bottom: 14px;
+}
+
+.label-adress {
+    display: block;
+    width: 384px;
+    height: 16px;
+    color: #102733;
+    padding-bottom: 28px;
+}
+
+.select-adress {
+    display: block;
+    width: 384px;
+    height: 36px;
+    border: 1px solid #EBEFF1;
+    border-radius: 8px;
+    color: #102733;
+}
+
+.p-get-there {
+    width: 125px;
+    height: 30px;
+    font-size: 20px;
+    color: #54237C;
+    line-height: 30px;
+    padding-top: 32px;
+}
+
+.gps-get-there {
+    background-color: #F9F7F6;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    max-width: 696px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.example-radio-button {
+    display: block;
+}
+
+.label-exact-adress {
+    display: block;
+    padding: 0 4px;
+    padding-bottom: 6px;
+    margin-left: 10px;
+}
+
+.input-exact-adress {
+    display: block;
+    width: 680px;
+    height: 36px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #EBEFF1;
+    margin-left: 10px;
+}
+
+.exactroute-get-there {
+    background-color: #F9FAFB;
+    max-width: 696px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.map {
+    display: inline-block;
+    padding-top: 8px;
+}
+
+
+.p-contact {
+    width: 97px;
+    height: 30px;
+    font-size: 20px;
+    color: #54237C;
+    line-height: 30px;
+    padding-bottom: 16px;
+    padding-top: 11px;
+}
+
+.label-phonenumber {
+    display: block;
+    width: 384px;
+    height: 16px;
+    color: #102733;
+    padding-bottom: 28px;
+}
+
+.input-phonenumber {
+    display: block;
+    width: 384px;
+    height: 36px;
+    padding: 8px 12px;
+    border: 1px solid #EBEFF1;
+    border-radius: 8px;
+    color: #102733;
+}
+
+
+.grid-buttons {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+    width: 336px;
+    height: 44px;
+    padding-top: 44px;
+}
+
+.cancel {
+    background-color: transparent;
+    color: #164056;
+    border-radius: 12px;
+    border: 1px solid #164056;
+    padding: 12px 32px;
+    text-align: center;
+}
+
+.save {
+    background-color: purple;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 12px 32px;
+    text-align: center;
+}
