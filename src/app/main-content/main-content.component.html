@@ -1,0 +1,36 @@
+<div class="details">
+    <div class="place">
+        <p class="p-adress">Borkóstoló helyszíne</p>
+        <label class="label-adress" for="adress">Cím</label>
+        <select class="form-select select-adress">
+            <option selected>Bár HU, 2091 Etyek, Báthori utca 21.</option>
+            <option value="1"></option>
+        </select>
+    </div>
+    <div class="to-get-there">
+        <p class="p-get-there">Megközelítés</p>
+        <mat-radio-group color="primary" aria-labelledby="example-radio-group-label" class="example-radio-group">
+            <div class="gps-get-there">
+                <mat-radio-button class="example-radio-button">GPS alapján könnyedén megközelíthető</mat-radio-button>
+                <label class="label-exact-adress">Pontos cím</label>
+                <input class="input-exact-adress" type="text">
+            </div>
+            <div class="exactroute-get-there">
+                <mat-radio-button class="example-radio-button">Konkrét útmutatás megadása</mat-radio-button>
+            </div>
+        </mat-radio-group>
+        <mat-slide-toggle hideIcon="true" color="primary" labelPosition="before">A térkép eltüntetése a borkóstoló
+            oldaláról </mat-slide-toggle>
+    </div>
+    <div class="contact">
+        <p class="p-contact">Kapcsolat</p>
+        <div>
+            <label class="label-phonenumber" for="phone-number">Telefonszám</label>
+            <input class="input-phonenumber" type="text" placeholder="+36 20 1234 567">
+        </div>
+    </div>
+    <div class="grid-buttons">
+        <button class="grid-item cancel">Mégsem</button>
+        <button class="grid-item save">Mentés</button>
+    </div>
+</div>

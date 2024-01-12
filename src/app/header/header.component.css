@@ -1,37 +1,37 @@
-header{
+header {
     width: 1506px;
 }
 
-.nav-a{
+.nav-a {
     display: inline-flex;
     align-items: center;
     padding-top: 20px;
     margin-left: 15px
 }
 
-.arrow{
+.arrow {
     position: relative;
     top: 2px;
 }
 
-.arrow-span{
+.arrow-span {
     position: relative;
     top: -4px;
 }
 
 li:not(:last-child)::after {
-	position: absolute;
-	top: 20px;
-	font-size: 6px;
+    position: absolute;
+    top: 20px;
+    font-size: 6px;
 }
 
-li{
+li {
     justify-items: center;
     margin-left: 15px;
     color: #74409D;
 }
 
-.after-dot-span{
+.after-dot-span {
     color: #74409D;
 }
 
@@ -76,7 +76,7 @@ li{
     text-align: center;
 }
 
-.end-buttons{
+.end-buttons {
     padding-top: 22px;
     align-items: center;
 }
@@ -89,7 +89,7 @@ li{
 }
 
 .icon {
-    background-color: F9F7F6;
+    background-color: #F9F7F6;
     border-radius: 8px;
     border: none;
     height: 44px;

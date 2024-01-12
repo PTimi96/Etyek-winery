@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DeviceDetectorService } from 'ngx-device-detector';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'feladat';
+  deviceInfo = true;
+
+    constructor(private deviceService: DeviceDetectorService) {
+      this.epicFunction()
+    }
+    epicFunction() {
+      this.deviceInfo = this.deviceService.isMobile();
+    }
+
 }

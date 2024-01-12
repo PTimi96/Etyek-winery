@@ -1,0 +1,101 @@
+<div class="mobile-main">
+    <div class="length-of-tasting">
+        <p class="title-of-length">Borkóstoló hossza</p>
+        <div class="hour-and-min">
+            <div class="hour">
+                <label class="label-hour">Óra</label>
+                <input class="input-hour" type="text" placeholder="10">
+            </div>
+            <div>
+                <label class="label-min">Perc</label>
+                <input class="input-min" type="text" placeholder="55">
+            </div>
+        </div>
+    </div>
+    <div class="date-of-tasting">
+        <p class="title-of-date">Borkóstoló időpontja</p>
+        <div class="card">
+            <div class="choose-time">
+                <div>
+                    <div class="time-and-icon">
+                        <p class="time-1">Időpont 1.</p>
+                        <button class="icon">
+                            <span class="material-icons">delete_outline</span>
+                        </button>
+                    </div>
+                    <div class="label-and-select">
+                        <label class="label-start">Borkóstoló kezdete</label>
+                        <div class="select-and-toggle">
+                            <select class="form-select">
+                                <option selected>12:00</option>
+                                <option value="1">14:00</option>
+                            </select>
+                            <mat-slide-toggle hideIcon="true" color="primary" labelPosition="before">
+                                <p class="everyday">Minden nap</p>
+                            </mat-slide-toggle>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="example-button-row">
+                    <div matTooltip="Disabled" class="example-disabled">
+                        <button class="day-picker" mat-fab disabled>H</button>
+                        <button class="day-picker" mat-fab disabled>K</button>
+                    </div>
+                    <div>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">Sz</button>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">Cs</button>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">P</button>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">Sz</button>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">V</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="choose-time">
+                <div>
+                    <div class="time-and-icon">
+                        <p class="time-1">Időpont 2.</p>
+                        <button class="icon">
+                            <span class="material-icons">delete_outline</span>
+                        </button>
+                    </div>
+                    <div class="label-and-select">
+                        <label class="label-start">Borkóstoló kezdete</label>
+                        <div class="select-and-toggle">
+                            <select class="form-select">
+                                <option selected>14:00</option>
+                                <option value="1">16:00</option>
+                            </select>
+                            <mat-slide-toggle hideIcon="true" color="primary" labelPosition="before">
+                                <p class="everyday">Minden nap</p>
+                            </mat-slide-toggle>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="example-button-row">
+                    <div matTooltip="Disabled" class="example-disabled">
+                        <button class="day-picker" mat-fab disabled>H</button>
+                        <button class="day-picker" mat-fab disabled>K</button>
+                        <button class="day-picker" mat-fab disabled>Sz</button>
+                    </div>
+                    <div>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">Cs</button>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">P</button>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">Sz</button>
+                        <button class="day-picker" mat-fab matTooltip="Primary" color="primary">V</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="new-appointment"><span class="material-icons plus">add_circle_outline</span>
+            <p class="p-new-appointment">Új időpont hozzáadása</p>
+        </button>
+        <div class="buttons-holder">
+            <button class="save-button">Mentés</button>
+            <button class="cancel-button">Mégsem</button>
+        </div>
+    </div>
+</div>
